@@ -1,13 +1,14 @@
 package edu.algo;
 
 public class AllSubSets {
-
+private int count=0;
     public void printAllSubSets(int[] data) {
         Integer[] subset = new Integer[data.length];
         helper(data, subset, 0);
     }
 
     public void helper(int[] data, Integer[] subset, int i) {
+
         if (i == data.length) {
             print(subset);
         } else {
