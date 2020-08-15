@@ -32,8 +32,10 @@ public class DoubleLinkedList {
         node.previous = node.next = null;
     }
 
-    public void removeTailNode() {
+    public Node removeTailNode() {
+        Node tail = this.tail;
         this.removeNode(this.tail);
+        return tail;
     }
 
     public void moveNodeToHead(Node node) {
