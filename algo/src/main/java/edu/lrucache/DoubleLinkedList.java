@@ -8,7 +8,7 @@ public class DoubleLinkedList {
             return;
         }
         if (head == null && tail == null) {
-            head = tail = null;
+            head = tail = node;
         } else {
             node.next = head;
             head.previous = node;
