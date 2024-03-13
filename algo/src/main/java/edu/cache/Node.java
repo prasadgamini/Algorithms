@@ -1,4 +1,4 @@
-package edu.lrucache;
+package edu.cache;
 
 public class Node {
     Node previous;

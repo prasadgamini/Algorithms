@@ -1,4 +1,4 @@
-package edu.lrucache;
+package edu.cache;
 
 import java.util.HashMap;
 import java.util.Map;

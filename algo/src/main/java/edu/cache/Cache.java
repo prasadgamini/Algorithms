@@ -1,4 +1,4 @@
-package edu.lrucache;
+package edu.cache;
 
 public interface Cache {
     void put(int key, int value);

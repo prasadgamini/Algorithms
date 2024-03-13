@@ -1,4 +1,4 @@
-package edu.lrucache;
+package edu.cache;
 
 public class DoubleLinkedList {
     private Node head, tail;
