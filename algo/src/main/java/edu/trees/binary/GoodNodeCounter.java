@@ -1,4 +1,4 @@
-package edu.trees;
+package edu.trees.binary;
 
 /**
  * https://leetcode.com/problems/count-good-nodes-in-binary-tree/

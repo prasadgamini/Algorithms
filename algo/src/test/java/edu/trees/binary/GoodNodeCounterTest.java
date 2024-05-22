@@ -1,4 +1,4 @@
-package edu.trees;
+package edu.trees.binary;
 
 import org.junit.jupiter.api.Test;
 
